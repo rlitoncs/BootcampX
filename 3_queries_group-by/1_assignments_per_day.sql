@@ -3,7 +3,7 @@
   -- Order the results by day.
   -- This query only requires the assignments table.
 
-SELECT day, COUNT(chapter)
+SELECT day, COUNT(*)
   FROM assignments
   GROUP BY day
   ORDER BY day;
